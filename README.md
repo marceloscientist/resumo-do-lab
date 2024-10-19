@@ -58,7 +58,7 @@ Neste laboratório, exploramos os modelos de serviço da Azure: **IaaS (Infrastr
 
 - **PaaS**: Aqui, a Azure cuida da infraestrutura e da plataforma subjacente, permitindo que o usuário se concentre no desenvolvimento e na configuração de suas aplicações. Por exemplo, ao alocar um servidor de banco de dados, a responsabilidade pela configuração do servidor fica com a Azure, enquanto o usuário foca nas configurações específicas do banco. 💻📊
 
-- **SaaS**: Este modelo oferece aplicações completas que estão prontas para uso, eliminando a necessidade de gerenciar a infraestrutura e a plataforma. O usuário simplesmente acessa a aplicação, e toda a gestão fica por conta do provedor de serviços. ☁️📦
+- SaaS: Este modelo oferece aplicações completas que estão prontas para uso, eliminando a necessidade de gerenciar a infraestrutura e a plataforma. O usuário simplesmente acessa a aplicação, e toda a gestão fica por conta do provedor de serviços. Claro, existe um gerenciamento básico, como o controle de acessos e de usuários, que fica a cargo do usuário. ☁️📦
 
 📚 **Conclusão**:  
 Esse laboratório destacou a importância de entender como as responsabilidades variam entre os diferentes modelos de serviço. Saber qual modelo usar pode facilitar o gerenciamento de recursos e otimizar o tempo e os esforços dos usuários, permitindo que eles se concentrem no que realmente importa: suas aplicações e dados. 🌟📈  
