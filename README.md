@@ -1,10 +1,10 @@
 ## Menu de Labs  
-- [1# Lab: Resumo do Primeiro Lab - Azure Essentials](#resumo-do-primeiro-lab)  
-- [2# Lab: Resumo do Segundo Lab - Benefícios da Nuvem Azure e SLA](#resumo-do-segundo-lab)
+- [1# Lab: Resumo do Primeiro Lab - Azure Essentials](#resumo-do-primeiro-lab---azure-essentials)  
+- [2# Lab: Resumo do Segundo Lab - Benefícios da Nuvem Azure e SLA](#resumo-do-segundo-lab---benefícios-da-nuvem-azure-e-sla)
 
 ---
 
-### 🌐 Resumo do Primeiro Lab: Azure Essentials 🚀  
+### 🌐 Resumo do Primeiro Lab - Azure Essentials 🚀  
 O primeiro laboratório do Azure Essentials foi super simples e direto! 👌
 
 💻 **Objetivo Principal**: Explorar a plataforma Azure e se familiarizar com sua interface e serviços.
@@ -21,7 +21,7 @@ Esse laboratório foi uma ótima introdução para quem está começando na Azur
 
 ---
 
-### 🌐 Resumo do Segundo Lab: Benefícios da Nuvem Azure e SLA 🚀  
+### 🌐 Resumo do Segundo Lab - Benefícios da Nuvem Azure e SLA 🚀  
 Este laboratório foi essencial para entender os principais benefícios da Nuvem Azure, com destaque para o conceito de SLA (Service Level Agreement). 🔧
 
 💻 **Objetivo Principal**: Explorar como a Nuvem Azure oferece escalabilidade, confiabilidade e segurança, com ênfase em como configurar a disponibilidade dos serviços.
