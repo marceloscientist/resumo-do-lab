@@ -6,7 +6,7 @@
 ---
 
 <a id="personalizacao"></a>
-### 🌐 Resumo do Primeiro Lab - Azure Essentials 🚀  
+### 🌐 1# Lab: Resumo do Primeiro Lab - Azure Essentials 🚀  
 O primeiro laboratório do Azure Essentials foi super simples e direto! 👌
 
 💻 **Objetivo Principal**: Explorar a plataforma Azure e se familiarizar com sua interface e serviços.
@@ -20,11 +20,13 @@ O primeiro laboratório do Azure Essentials foi super simples e direto! 👌
 
 📚 **Conclusão**:  
 Esse laboratório foi uma ótima introdução para quem está começando na Azure! Ele oferece uma visão geral das funcionalidades e te ajuda a entender a plataforma sem se assustar com as opções. É um verdadeiro "mergulho suave" no universo da computação em nuvem. 🌥️🛠️  
-[Topo](#menu)
+
 ---
+[Topo](#menu)
+
 
 <a id="sla"></a>
-### 🌐 Resumo do Segundo Lab - Benefícios da Nuvem Azure e SLA 🚀  
+### 🌐 2# Lab: Resumo do Segundo Lab - Benefícios da Nuvem Azure e SLA 🚀  
 Este laboratório foi essencial para entender os principais benefícios da Nuvem Azure, com destaque para o conceito de SLA (Service Level Agreement). 🔧
 
 💻 **Objetivo Principal**: Explorar como a Nuvem Azure oferece escalabilidade, confiabilidade e segurança, com ênfase em como configurar a disponibilidade dos serviços.
@@ -38,5 +40,6 @@ Este laboratório foi essencial para entender os principais benefícios da Nuvem
 
 📚 **Conclusão**:  
 Esse laboratório destacou a flexibilidade da Azure em se adaptar às necessidades específicas dos clientes, seja para ambientes de teste ou produção (PRD). Com configurações ajustadas corretamente, é possível garantir alta disponibilidade e minimizar falhas, garantindo uma experiência mais confiável. 🛡️💼  
-[Topo](#menu)
+
 ---
+[Topo](#menu)
