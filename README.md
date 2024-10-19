@@ -3,7 +3,7 @@
 - [1# Lab: Resumo do Primeiro Lab - Azure Essentials](#personalizacao)  
 - [2# Lab: Resumo do Segundo Lab - Benefícios da Nuvem Azure e SLA](#sla)
 - [3# Lab: Resumo do Terceiro Lab - IaaS, PaaS e SaaS na Azure](#modelosServico)
-
+- [4# Lab: Resumo do Quarto Lab - Componentes de Arquitetura do Azure](#grupoRecursos)
 ---
 
 <a id="personalizacao"></a>
@@ -65,3 +65,31 @@ Esse laboratório destacou a importância de entender como as responsabilidades 
 
 ---
 [Topo](#menu)
+
+
+<a id="grupoRecursos"></a>
+### 🌐 4# Lab: Resumo do Quarto Lab - Componentes de Arquitetura do Azure 🚀  
+No quarto laboratório, exploramos os **Componentes de Arquitetura do Azure**, com foco em **Grupos de Recursos**, **Pares de Região**, e **Assinaturas do Azure**. Este lab foi prático, abordando a criação de uma Rede Virtual e a importância de organizar recursos dentro de grupos. 🌍🔧
+
+💻 **Objetivo Principal**: Entender como os componentes de arquitetura são fundamentais para organizar e gerenciar recursos no Azure, garantindo escalabilidade e controle de custos.
+
+🔧 **O que foi feito?**  
+**Grupos de Recursos**:  
+- Ao criar uma Rede Virtual, o primeiro passo foi configurar um **Grupo de Recursos**. Ele funciona como uma "caixa organizadora" onde você pode agrupar recursos relacionados (como redes, bancos de dados, máquinas virtuais) de forma lógica e gerenciável. Um recurso só pode ser criado se estiver associado a um Grupo de Recursos. 🗂️
+
+- **Organização e Tags**: Dentro do grupo, você pode adicionar **Tags** para identificar os recursos com base em critérios específicos, como ambiente (produção, desenvolvimento), departamento, ou até projetos. Isso facilita a gestão e o rastreamento, principalmente no controle de custos no final do mês. 💸
+
+- **Controle de Custos**: Os Grupos de Recursos são fundamentais para o gerenciamento financeiro, permitindo que os custos de cada recurso sejam monitorados de forma clara e precisa. Isso é especialmente útil para separar ambientes e organizar as faturas conforme o uso e o propósito de cada grupo (desenvolvimento, teste, produção). 📊💰
+
+**Pares de Região**:  
+- Durante o lab, exploramos também o conceito de **Pares de Região**. Regiões no Azure são sempre emparelhadas (como Brasil e EUA), o que oferece alta disponibilidade, permitindo a replicação de recursos entre regiões em caso de falha em uma delas. Isso é crucial para garantir a continuidade dos serviços e minimizar o impacto de possíveis interrupções. 🌎🌍
+
+**Assinatura da Azure e Grupos de Gerenciamento**:  
+- Cada recurso no Azure está associado a uma **Assinatura**, que é um contrato de uso dos serviços da Azure. As assinaturas podem ser organizadas em **Grupos de Gerenciamento**, o que facilita o controle e a governança de várias assinaturas dentro de uma mesma organização. Isso permite que empresas maiores organizem suas infraestruturas e gerenciem permissões, custos e políticas de maneira eficiente. 🔐🧾
+
+📚 **Conclusão**:  
+Esse laboratório nos ensinou que uma arquitetura bem organizada é essencial para o bom uso da plataforma Azure. Ao criar Grupos de Recursos, Pares de Região e configurar corretamente suas assinaturas, é possível garantir alta disponibilidade, controle de custos, e uma gestão mais eficiente dos recursos. Essas práticas organizam seu ambiente em nuvem e facilitam a administração tanto técnica quanto financeira. 🏗️💼  
+
+---
+[Voltar ao Menu](#menu)
+
