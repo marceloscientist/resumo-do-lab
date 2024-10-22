@@ -4,6 +4,8 @@
 - [2# Lab: Resumo do Segundo Lab - Benefícios da Nuvem Azure e SLA](#sla)
 - [3# Lab: Resumo do Terceiro Lab - IaaS, PaaS e SaaS na Azure](#modelosServico)
 - [4# Lab: Resumo do Quarto Lab - Componentes de Arquitetura do Azure](#grupoRecursos)
+- [5# Lab: Resumo do Quinto Lab - Serviços de Computação e Máquinas Virtuais do Azure](#virtualLab)
+
 ---
 
 <a id="personalizacao"></a>
@@ -92,4 +94,31 @@ Esse laboratório nos ensinou que uma arquitetura bem organizada é essencial pa
 
 ---
 [Voltar ao Menu](#menu)
+
+<a id="virtualLab"></a>
+### 🌐 5# Lab: Resumo do Quinto Lab - Serviços de Computação e Máquinas Virtuais do Azure 🚀  
+
+No quinto laboratório, aprofundamos nosso conhecimento nos **Serviços de Computação do Azure**, abordando conceitos de **Máquinas Virtuais (VMs)**, **Conjuntos de Disponibilidade**, **Área de Trabalho Virtual**, **Contêineres**, e **Azure Functions**. Esse lab apresentou um panorama abrangente das ofertas de IaaS e PaaS da Azure, com detalhes importantes sobre configuração e uso. ☁️🖥️
+
+💻 **Objetivo Principal**: Entender como criar e configurar Máquinas Virtuais, Conjuntos de Disponibilidade, e explorar recursos como Área de Trabalho Virtual, Azure Functions e Serviços de Aplicativo.
+
+🔧 **O que foi feito?**
+
+**Máquinas Virtuais (VMs)**:  
+- Criamos **Máquinas Virtuais** na plataforma Azure e exploramos as configurações de **IaaS (Infrastructure as a Service)**. As VMs oferecem total controle sobre o sistema operacional, configurações de rede, discos e mais. As opções de configuração variam de acordo com a necessidade do usuário (desde pequenos servidores a configurações mais complexas). ⚙️💾
+
+- **Conjuntos de Disponibilidade**: Ao configurar VMs, reforçamos a importância dos **Conjuntos de Disponibilidade (Availability Sets)**, que são usados para aumentar a resiliência e garantir que, em caso de falha no hardware ou manutenção, suas VMs não sejam afetadas simultaneamente. Isso distribui as máquinas virtuais entre diferentes domínios de falha e atualização, garantindo maior tempo de atividade. Este ponto é frequentemente abordado em provas como a **AZ-900**, pois reflete boas práticas de alta disponibilidade. 🛡️⏳
+
+**Área de Trabalho Virtual (Virtual Desktop)**:  
+- Exploramos a tela de configuração da **Área de Trabalho Virtual** (Virtual Desktop), que é um serviço **PaaS (Platform as a Service)**. Ele permite disponibilizar recursos para múltiplos usuários que podem compartilhar o mesmo host, garantindo flexibilidade e escalabilidade.
+- É uma solução excelente para empresas que precisam de desktops gerenciados de forma centralizada e segura. 🖥️👥
+
+**Azure Functions**:  
+- Tivemos uma visão geral do **Azure Functions**, um serviço de **computação sem servidor (Serverless)** que permite executar pequenos pedaços de código sob demanda, sem a necessidade de gerenciar infraestrutura.
+
+📚 **Conclusão**:  
+Esse laboratório foi essencial para entender a vasta gama de opções de computação oferecidas pelo Azure. Ao criar e configurar **Máquinas Virtuais**, **Conjuntos de Disponibilidade** e explorar **Virtual Desktop** e **Azure Functions**, vimos na prática como a plataforma Azure é flexível e pode se adaptar às diferentes necessidades de infraestrutura e computação. Esses conceitos e configurações são extremamente importantes para quem está estudando para a **certificação AZ-900**, especialmente tópicos como alta disponibilidade, VMs, e serviços de computação escalável. 🌐📈
+
+---
+[Voltar ao Menu](#menu) 
 
