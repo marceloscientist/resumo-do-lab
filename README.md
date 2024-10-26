@@ -5,6 +5,7 @@
 - [3# Lab: Resumo do Terceiro Lab - IaaS, PaaS e SaaS na Azure](#modelosServico)
 - [4# Lab: Resumo do Quarto Lab - Componentes de Arquitetura do Azure](#grupoRecursos)
 - [5# Lab: Resumo do Quinto Lab - Serviços de Computação e Máquinas Virtuais do Azure](#virtualLab)
+- [6# Lab: Resumo do Sexto Lab - Redundância e Serviços de Armazenamento do Azure](#armazenamentoAzure)
 
 ---
 
@@ -121,4 +122,34 @@ Esse laboratório foi essencial para entender a vasta gama de opções de comput
 
 ---
 [Voltar ao Menu](#menu) 
+
+<a id="armazenamentoAzure"></a>
+
+🌐 6# Lab: Resumo do Sexto Lab - Redundância e Serviços de Armazenamento do Azure 🚀
+No sexto laboratório, exploramos os Serviços de Armazenamento do Azure, com foco na Redundância, Migrações para o Azure, e Gerenciamento de Arquivos. Aprendemos sobre a criação de contas de armazenamento e as diferentes opções que a plataforma oferece para gerenciar dados de forma segura e eficiente. ☁️📦
+
+💻 Objetivo Principal: Entender as opções de armazenamento disponíveis no Azure, como configurar a redundância e as migrações, e conhecer os diferentes serviços de gerenciamento de arquivos.
+
+🔧 O que foi feito?
+
+Criação de Conta de Armazenamento:
+
+Iniciamos o lab criando uma Conta de Armazenamento, onde destacamos a importância de ter um nome único e as opções de tipo de desempenho, como Standard e Premium. Esses tipos definem a performance e o custo associado ao uso do armazenamento no Azure. 🏷️⚙️
+Redundância:
+
+Discutimos os quatro tipos principais de Redundância disponíveis no Azure, que garantem a proteção dos dados contra falhas. Esses tipos incluem:
+Locally Redundant Storage (LRS): Mantém cópias dos dados em várias máquinas dentro de uma única região.
+Geo-Redundant Storage (GRS): Replica os dados em uma região secundária para maior resiliência.
+Zone-Redundant Storage (ZRS): Distribui os dados entre várias zonas de disponibilidade em uma mesma região.
+Read-Access Geo-Redundant Storage (RA-GRS): Oferece leitura dos dados replicados em uma região secundária.
+Esses conceitos são fundamentais para garantir a disponibilidade e integridade dos dados, sendo frequentemente abordados em provas como a AZ-900. 🔒🌍
+
+Migrações para o Azure:
+O lab também abordou as diversas opções de migração para o Azure, como a transferência de servidores, bancos de dados, e aplicativos web. Discutimos ferramentas como o Azure Data Box, que facilita a migração de grandes volumes de dados de forma segura e eficiente. 🛠️📤
+
+Gerenciamento de Arquivos:
+Aprendemos sobre as diferentes opções de gerenciamento de arquivos disponíveis no Azure, como o Azure File Storage, que permite compartilhar arquivos em uma rede usando o protocolo SMB. Também exploramos os conceitos de tokens de acesso compartilhado (SAS) e como eles podem ser utilizados para fornecer acesso temporário a recursos em uma conta de armazenamento. 🔑📂
+
+---
+[Voltar ao Menu](#menu)
 
