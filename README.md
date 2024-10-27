@@ -6,6 +6,7 @@
 - [4# Lab: Resumo do Quarto Lab - Componentes de Arquitetura do Azure](#grupoRecursos)
 - [5# Lab: Resumo do Quinto Lab - Serviços de Computação e Máquinas Virtuais do Azure](#virtualLab)
 - [6# Lab: Resumo do Sexto Lab - Redundância e Serviços de Armazenamento do Azure](#armazenamentoAzure)
+- [7# Lab: Resumo do Sétimo Lab - Identidade, Acesso e Segurança no Azure](#identidade)
 
 ---
 
@@ -151,5 +152,33 @@ Gerenciamento de Arquivos:
 Aprendemos sobre as diferentes opções de gerenciamento de arquivos disponíveis no Azure, como o Azure File Storage, que permite compartilhar arquivos em uma rede usando o protocolo SMB. Também exploramos os conceitos de tokens de acesso compartilhado (SAS) e como eles podem ser utilizados para fornecer acesso temporário a recursos em uma conta de armazenamento. 🔑📂
 
 ---
+[Voltar ao Menu](#identidade)
+
+<a id="lab7"></a>
+### 🔐 7# Lab: Resumo do Sétimo Lab - Identidade, Acesso e Segurança no Azure 🚀
+
+No sétimo laboratório, exploramos as práticas de **Identidade, Acesso e Segurança** no Azure, com foco em **Microsoft Entra ID (antigo Azure AD)**, **Autenticação e Autorização**, **Acesso Condicional** e **Microsoft Defender for Cloud**. Este lab trouxe uma visão prática e detalhada sobre como gerenciar o acesso e a segurança no ambiente de nuvem.
+
+💻 **Objetivo Principal**: Compreender como os serviços de identidade e segurança do Azure ajudam a proteger recursos, gerenciar acessos e monitorar atividades, especialmente em cenários que envolvem integração com ambientes **on-premises**.
+
+🔧 **O que foi feito?**
+
+**Microsoft Entra ID e Gerenciamento de Identidade**:  
+- Exploramos o **Microsoft Entra ID** e como ele gerencia a identidade e o acesso aos recursos na nuvem. Diferente de outros sistemas, usuários não são automaticamente sincronizados do ambiente **on-premises** para o Entra ID. Precisamos configurar o **Entra Connect** ou **Connect Sync** para realizar essa sincronização.
+- **Roles e Administradores**: Analisamos as permissões de acesso que podem ser configuradas através de **roles** (papeis) e **administradores**, que facilitam o controle sobre os privilégios dos usuários. É importante lembrar que papéis específicos como P1 e P2 exigem licenças pagas, não estando disponíveis em contas free trial.
+- **Autenticação e Autorização**: Revisamos os conceitos de **autenticação** (quem é o usuário) e **autorização** (o que ele pode acessar), essenciais para definir o nível de acesso em cada recurso. ✋👥
+
+**Acesso Condicional e Controle de Acesso (IAM)**:  
+- Configuramos o **Acesso Condicional**, definindo políticas que controlam como e quando os usuários podem acessar determinados recursos. Esse controle é fundamental para prevenir acessos não autorizados.
+- **IAM (Identity and Access Management)**: No IAM, criamos políticas de acesso personalizadas para diferentes **resource groups**, permitindo um gerenciamento seguro e granular de permissões em todo o ambiente de nuvem. 👮‍♂️🔑
+
+**Microsoft Defender for Cloud**:  
+- No **Microsoft Defender for Cloud**, visualizamos o nível de segurança dos nossos recursos e criamos **políticas de segurança** para aumentar a proteção.
+  - **DevOps Security** e **Security Alerts**: Utilizados para monitorar e alertar sobre potenciais ameaças de segurança. O recurso **Defender CSPM** fornece insights avançados, embora seja uma funcionalidade paga.
+  - **Foundation CSPM**: Disponível gratuitamente e essencial para a gestão de segurança básica.
+  - **Attack Paths**: Identifica possíveis rotas de ataque, permitindo antecipar e mitigar riscos antes que se tornem incidentes de segurança.
+
+---
 [Voltar ao Menu](#menu)
+
 
