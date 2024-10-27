@@ -8,8 +8,9 @@
 - [6# Lab: Resumo do Sexto Lab - Redundância e Serviços de Armazenamento do Azure](#armazenamentoAzure)
 - [7# Lab: Resumo do Sétimo Lab - Identidade, Acesso e Segurança no Azure](#identidade)
 - [8# Lab: Resumo do Oitavo Lab - Gerenciamento de Custos e Otimização no Azure](#custos)
-- [9# Lab: Governança, Conformidade e Proteção de Dados no Azure 🔒](#conformidade)
+- [9# Lab: Governança, Conformidade e Proteção de Dados no Azure](#conformidade)
 - [10# Lab: Ferramentas de Gerenciamento e Implantação no Azure](#ferramentasImplantacao)
+- [11# Lab: Ferramentas de Monitoramento do Azure](#ferramentasMonitoramento)
 
 ---
 
@@ -283,11 +284,30 @@ Aqui está o **Resumo do 10# Lab** sobre Ferramentas de Gerenciamento e Implanta
 
 
 
+<a id="ferramentasMonitoramento"></a>
+### 🛠️ 11# Lab: Ferramentas de Monitoramento do Azure 📊
+
+**Objetivo Principal**: Explorar as ferramentas de monitoramento no Azure, que auxiliam no acompanhamento do desempenho e na identificação de melhorias em segurança e custos.
+
+### 🔑 Pontos Principais:
+
+1. **Azure Monitor**:
+   - **Função Principal**: O Azure Monitor fornece insights detalhados sobre o status e a integridade dos recursos. Ele permite que administradores monitorem o desempenho de aplicações, infraestrutura e serviços, garantindo que os recursos estejam funcionando conforme esperado.
+   - **Funcionalidades**:
+     - **Visualização de métricas**: Traz informações em tempo real sobre desempenho, consumo de recursos e tendências.
+     - **Logs e Alertas**: Gera logs detalhados e permite configurar alertas, notificando quando há degradação de serviços ou necessidade de manutenção.
+     - **Plano de Manutenção**: Facilita o planejamento de manutenções programadas, prevenindo problemas e mantendo a alta disponibilidade.
+
+2. **Azure Advisor**:
+   - **Função Principal**: Azure Advisor é uma ferramenta de recomendações personalizadas, que analisa a configuração dos recursos e sugere melhorias.
+   - **Recomendações**:
+     - **Desempenho**: Sugere otimizações para melhorar a eficiência de recursos subutilizados.
+     - **Custo**: Identifica áreas onde é possível reduzir gastos, apontando serviços subutilizados ou sugerindo opções mais econômicas.
+     - **Segurança e Compliance**: Reforça a segurança e a conformidade, recomendando ações para corrigir vulnerabilidades e aderir a melhores práticas.
 
 
-
-
-
+---
+[Voltar ao Menu](#menu)
 
 
 
