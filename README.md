@@ -7,6 +7,7 @@
 - [5# Lab: Resumo do Quinto Lab - Serviços de Computação e Máquinas Virtuais do Azure](#virtualLab)
 - [6# Lab: Resumo do Sexto Lab - Redundância e Serviços de Armazenamento do Azure](#armazenamentoAzure)
 - [7# Lab: Resumo do Sétimo Lab - Identidade, Acesso e Segurança no Azure](#identidade)
+- [8# Lab: Resumo do Oitavo Lab - Gerenciamento de Custos e Otimização no Azure](#custos)
 
 ---
 
@@ -181,4 +182,32 @@ No sétimo laboratório, exploramos as práticas de **Identidade, Acesso e Segur
 ---
 [Voltar ao Menu](#menu)
 
+
+<a id="custos"></a>
+### 💰 8# Lab: Resumo do Oitavo Lab - Gerenciamento de Custos e Otimização no Azure 📊
+
+No oitavo laboratório, exploramos como **gerenciar e calcular custos** no Azure para otimizar gastos e planejar investimentos em nuvem. Com ferramentas como o **TCO Calculator** e a **Calculadora de Preços**, analisamos cenários e configuramos estimativas de custo baseadas em diferentes cargas de trabalho e estratégias.
+
+💡 **Objetivo Principal**: Aprender a usar as ferramentas de análise de custos do Azure, entender os fatores que afetam o orçamento e gerenciar gastos de maneira eficiente.
+
+🔧 **O que foi feito?**
+
+**1. Calculadora do TCO (Custo Total de Propriedade)**:
+- A **Calculadora TCO** ajuda a simular quanto se gastaria ao migrar de um ambiente **on-premise** para a nuvem.
+- Definimos **cargas de trabalho** (ambiente, sistemas operacionais, banco de dados, rede, etc.), ajustamos suposições e geramos relatórios que indicam uma projeção de economia.
+- A ferramenta permite inserir licenças que a empresa já possui, o que ajuda a reduzir custos, e exibe um **dashboard de economia** ao final da configuração, facilitando a análise de viabilidade da migração. 📈💵
+
+**2. Calculadora de Preços**:
+- A **Calculadora de Preços** do Azure é a ferramenta oficial para estimar custos de serviços específicos, como **Virtual Machines**, **Banco de Dados**, **Rede**, entre outros.
+- Com ela, simulamos cenários ajustando configurações e observamos como **pequenas mudanças** (como o tipo de instância, licenciamento, horas ativas e reservas) afetam o valor total. Isso possibilita uma simulação que reflete a necessidade real da empresa, ajudando a planejar o orçamento. 💳💼
+
+**3. Cost Management e Tags**:
+- Utilizamos o **Cost Management** para monitorar e gerenciar a assinatura e os custos em tempo real, com recursos como:
+  - **Advisor Recommendations**: recomendações automáticas para otimizar gastos, oferecendo sugestões de melhorias.
+  - **Alertas de Custo**: configuramos alertas para não ultrapassar o limite de orçamento definido, garantindo o controle financeiro.
+  - **Orçamento (Budget)**: configuramos limites de gastos e ativamos validações para evitar despesas inesperadas.
+- **Tags**: As **tags** são usadas para organizar e categorizar recursos, facilitando o gerenciamento e a alocação de custos no Azure Cost Center. 🎯🏷️
+
+---
+[Topo](#menu)
 
