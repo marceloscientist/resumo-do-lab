@@ -8,6 +8,7 @@
 - [6# Lab: Resumo do Sexto Lab - Redundância e Serviços de Armazenamento do Azure](#armazenamentoAzure)
 - [7# Lab: Resumo do Sétimo Lab - Identidade, Acesso e Segurança no Azure](#identidade)
 - [8# Lab: Resumo do Oitavo Lab - Gerenciamento de Custos e Otimização no Azure](#custos)
+- [9# Lab: Governança, Conformidade e Proteção de Dados no Azure 🔒](#conformidade)
 
 ---
 
@@ -210,4 +211,55 @@ No oitavo laboratório, exploramos como **gerenciar e calcular custos** no Azure
 
 ---
 [Topo](#menu)
+
+
+
+<a id="conformidade"></a>
+### 🛡️ 9# Lab: Governança, Conformidade e Proteção de Dados no Azure 🔒
+
+Neste laboratório, exploramos as ferramentas de **Governança e Conformidade** do Azure, focando no uso de **Blueprints, Políticas e Bloqueios de Recursos** para gerenciar segurança, proteção de dados e manter as configurações conforme os padrões regulatórios.
+
+💡 **Objetivo Principal**: Aprender a configurar bloqueios, políticas e outras ferramentas de governança que ajudam a proteger dados, garantir conformidade e gerenciar os recursos com segurança.
+
+🔧 **O que foi feito?**
+
+**1. Trust Center e Compliance Manager**:
+- O **Portal de Confiança de Serviços (Service Trust Portal)** do Azure fornece documentos e relatórios de conformidade que ajudam a provar que os serviços estão alinhados com regulamentos, como a **Resolução Bacen** e padrões de proteção de dados.
+- Com o **Compliance Manager**, é possível acessar checklists e relatórios específicos que auxiliam em auditorias, ajudando a manter a conformidade com normas como LGPD, ISO e outros padrões globais. 📄✅
+
+**2. Bloqueios de Recursos (Locks)**:
+- No **Resource Groups**, configuramos **bloqueios de exclusão e modificação** (Delete e Read-only) para evitar alterações acidentais nos recursos.
+- Observamos que o bloqueio se aplica apenas ao **nível onde ele é configurado** (grupo de recursos ou recurso específico). Por exemplo, mover um recurso bloqueado para outro grupo sem o bloqueio permite que ele seja alterado ou excluído. 🔒🗄️
+
+**3. Microsoft Purview e Governança de Dados**:
+- **Microsoft Purview** é uma plataforma de governança que facilita o gerenciamento, coleta e auditoria de dados. Ele oferece:
+  - **Compliance Manager**: para monitorar o status de conformidade.
+  - **Records Management** e **Microsoft Priva**: soluções de conformidade para LGPD e outras leis de privacidade, facilitando a gestão de dados pessoais e auditorias de proteção de dados.
+- **Reports de análise** do Purview ajudam a identificar pontos fortes e fracos de segurança e conformidade. 📊🔍
+
+**4. Políticas (Policies)**:
+- **Azure Policies** permite criar e aplicar regras em diversos níveis, desde o nível de assinatura até grupos de recursos e recursos individuais.
+  - Exemplos incluem a política de **Allowed Locations** (Localizações Permitidas), que limita onde recursos podem ser criados.
+  - **Parametrização e Remediação**: políticas podem ser personalizadas com parâmetros específicos, com mensagens de não conformidade, além de configurações de remediação para corrigir automaticamente recursos fora de conformidade.
+- Políticas criadas garantem que **todos os usuários**, independentemente do cargo, sigam as regras definidas, assegurando a uniformidade na aplicação de normas. 📜✅
+
+
+---
+[Voltar ao Menu](#menu)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
